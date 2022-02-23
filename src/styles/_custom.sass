@@ -1,0 +1,55 @@
+.bg-video
+  background-image: url(../assets/curso/bg-video.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.color-alternativo
+  &_texto
+    h1, h2, h3, h4, h5, h6, p, a, span
+      color: $color-sistema-texto !important
+  &_1
+    background-color: #C6FCFF
+  &_2
+    background-color: #FFE1E4
+  &_3
+    background-color: #FFF7DF
+  &_4
+    background-color: #E1CEF0
+  &_5
+    background-color: #F3F9FF
+  &_6
+    background-color: #C49CE1
+  &_7
+    background-color: #FFE89F
+.tarjeta-slyde
+  position: relative
+  overflow: hidden
+  &_contenido
+    position: absolute
+    height: 70%
+    bottom: 0
+    left: 0
+    background-color: rgba(198, 252, 255, 0.9)
+    border-radius: 10px 10px 0 0 
+    h1, h2, h3, h4, h5, h6, p, a, span, b
+      color: $color-sistema-texto !important
+    color: $color-sistema-texto !important
+.slyder-f__btn 
+  i
+  .fa-chevron-right:before
+    content: url(../assets/curso/flecha-derecha.svg)
+  .fa-chevron-left:before
+    content: url(../assets/curso/flecha-izquierda.svg)
+  
+.item span
+  background-color: $color-acento-botones
+  border-radius: 50% 0 50% 50%
+  padding: 15px
+  padding-bottom: 10px
+  padding-top: 10px
+  // width: 28px
+  // height: 28px
+  color: $white
+  font-weight: bold
+.acordion__activo
+  background-color: #e1cef0
