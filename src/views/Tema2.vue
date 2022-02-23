@@ -2,139 +2,147 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal
-      .h3 Producción Audiovisual
-    
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 2
+      h1 <i>Raspberry Pi</i> y Arduino
+    p.mb-5 A continuación conoceremos qué son el <i>Raspberry Pi</i> y el Arduino, elementos importantes a la hora de hablar de Internet de las Cosas.
+    h3.fst-italic RASPBERRY PI
+    .row.mb-5.justify-content-center
+      .col-lg-9
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/29.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El Raspberry Pi es un minicomputador de bajo costo que puede ser conectado a un monitor o televisión.
+    p.mb-5 Los componentes el <i><b>Raspberry Pi</b></i> son:
+    .row.mb-5.justify-content-center
+      .col-lg-6
+        PasosA.color-acento-contenido.mb-5(tipo="n")
+          .row.justify-content-center.align-items-center
+            .col-lg-4
+              .icono-hover
+                img(src='@/assets/curso/30.svg')
+                img(src='@/assets/curso/31.jpg')
+            .col-lg-8
+              h4 Fuente de Potencia: 
+              p Puede ser conectado con una conexión capaz de suplir 400 mA en 5V.
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              h4 Pantalla:
+              p La pantalla es un monitor o televisor con entrada HDMI o DVI. 
+            .col-lg-4
+              .icono-hover
+                img(src='@/assets/curso/32.svg')
+                img(src='@/assets/curso/33.jpg')
+          .row.justify-content-center.align-items-center
+            .col-lg-4
+              .icono-hover
+                img(src='@/assets/curso/34.svg')
+                img(src='@/assets/curso/35.jpg')
+            .col-lg-8
+              h4 Teclado y mouse:
+              p Periféricos  USB de baja potencia con menos de 0.1ª.
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              h4 Tarjeta de memoria SD: 
+              p La tarjeta SD usada para <i>Raspberry Pi</i> debe ser al menos clase 4 con mínimo 8 Gb de capacidad de almacenamiento, la tarjeta SD necesita ser instalada sobre un sistema operativo desde otro computador. El proceso de instalación puede  ser realizada sobre <i>Windows, Mac, Linux, NOOBS y Raspbian</i>. 
+            .col-lg-4
+              .icono-hover
+                img(src='@/assets/curso/36.svg')
+                img(src='@/assets/curso/37.jpg')
+    h4.mb-5 Ventajas de Raspberry Pi
+    .row.mb-5
+      .col-lg-3
+        .tarjeta.color-alternativo_8.p-4.h-100.d-flex.align-items-center.justify-content-center
+          h4.text-center.mb-0 Uso sencillo
+      .col-lg-3
+        .tarjeta.color-alternativo_9.p-4.h-100.d-flex.align-items-center.justify-content-center
+          h4.text-center.mb-0 Tamaño muy pequeño
+      .col-lg-3
+        .tarjeta.color-alternativo_10.p-4.h-100.d-flex.align-items-center.justify-content-center
+          h4.text-center.mb-0 Precio bajo
+      .col-lg-3
+        .tarjeta.color-alternativo_11.p-4.h-100.d-flex.align-items-center.justify-content-center
+          h4.text-center.mb-0 Tienen pines de entrada/salida, por lo que también se pueden conectar a otros componentes electrónicos, como sensores, LEDs, etc.
+    h3 ARDUINO
+    .row.mb-5.justify-content-center
+      .col-lg-9
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/38.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p
+              b Inventado en el Ivrea <i>Interaction Design Institute</i>, diseñado para la creación rápida de prototipos dirigido a aficionados, muy pronto su uso creció exponencialmente y se adapta a las últimas tendencias en el mercado, desde una placa de <i>8 bits</i> hasta productos IoT, dispositivos portátiles y entornos embebidos. 
+    p.mb-5 El <i>software</i> Arduino es fácil de usar y se puede operar en plataformas <i>Mac, Linux y Windows</i>. 
+      br
+      br
+      |A continuación identifiquemos cada uno de sus componentes:
+    ImagenInfografica.color-secundario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/39.svg', alt='Texto que describa la imagen')
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="1")
+        p 1. ATmega 328 microcontrolador. El corazón del Arduino, el procesador.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="2")
+        p 2. Puerto USB. Se utiliza para la alimentación de la interfaz Uno Genuino, la carga de nuestros programas, y para la comunicación con nuestra placa (a través de serie. PrintIn (), etc.) El regulador de tensión ubicado a su lado, convertirá la tensión que le llega a través de este puerto USB y hará que trabaje a 5V.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="3")
+        p  3. Conector de alimentación. Esta es la forma de alimentar nuestra placa cuando no está conectada a un puerto USB para para suministrar corriente eléctrica. Puede aceptar tensiones entre 7-12V.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="4")
+        p  4. Los pines digitales: Utilizaremos estos pines con instrucciones como DigitalRead (), DigitalWrite (). AnalogRead () y AnalogWrite () funcionarán únicamente en los ìnes con el símbolo PWM.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="5")
+        p  5. y 6. Serial IN (TX) y Serial IN (RX): Los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="6")
+        p 5. y 6. Serial IN (TX) y Serial IN (RX): Los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="7")
+        p Pin 13 + L (on board led): El único actuador incorporado a la placa. Además de ser un objetivo práctico para nuestra primera práctica de encender y apagar LED, este LED es muy útil para la depuración (debugging).
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="8")
+        p GND: proporciona masa, tierra, negativo a los circuitos.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="9")
+        p  AREF: AnalogReference input V- Tensión a 5V, proporciona diferencia de potencial. Si se le aplica voltaje externo debe ser entre 0 y 5V solamente.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="10")
+        p Botón Reset. Restablece el microcontrolador ATmega.
 
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="11")
+        p Chip de comunicación serie.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="12")
+        p Regulador de tensión. Se debe tener en cuenta que para que trabaje a 5V la placa deberá recibir unos 6,5V – 7V, pero todo lo que esté por encima de este valor se desperdiciará (es decir, sobrecalentará la placa de Arduino y mayor calor que tendrá que disipar el regulador). En cualquier caso no está recomendado aplicar al regulador más de 12V y a los 20V se dañará.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="13")
+        p ICSP: In-Circuit Serial Programming.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="14")
+        p Led de encendido: Indica que la placa está recibiendo alimentación.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="15")
+        p Pines analógicos: Utilizaremos estos pines con instrucciones como Analogread ().
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="16")
+        p Vin: Voltaje Input. Deberá llegarle una tensión regulada y estable (ya que no pasa por el regulador -nº12-) de 5V.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="17")
+        p GND: proporciona masa, tierra, negativo a nuestros circuitos.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="18")
+        p 5V: Voltaje Input.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="19")
+        p 3,3V: Voltaje Input.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="20")
+        p Reset pin: Restablece el microcontrolador ATmega. A su izquierda está el conector IOREF: Digital Reference input V, y a continuación un pin reservado para futuras finalidades.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="21")
+        p TX y RX LED. Estos LEDs indican la comunicación entre la placa y el ordenador. Estos leds parpadearán rápidamente durante la carga de nuestros programas, así como durante la comunicación serie. Útil para la depuración (debugging).
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="22")
+        p Casa fabricante original. Aquí puedes comprobar fácilmente si tu placa se trata de una imitación o el original.
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="23")
+        p Pin 13 + L (on board led): El único actuador incorporado a la placa. Además de ser un objetivo práctico para nuestra primera práctica de encender y apagar LED, este LED es muy útil para la depuración (debugging).
+      .tarjeta.color-secundario.text-white.p-3(x="20%" y="20%" numero="24")
+        p Reloj / Crystal 16 Mhz oscilador: se usa como reloj externo en el montaje del Arduino.
 
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
 
 </template>
 
@@ -155,4 +163,21 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bloque-texto-g.color-primario
+  height: 319px
+  .bloque-texto-g__texto
+    display: flex
+    align-items: center
+.icono-hover
+  overflow: hidden
+  img:first-child
+    display: block
+  img:last-child
+    display: none
+  &:hover
+    img:first-child
+      display: none
+    img:last-child
+      display: block
+</style>
