@@ -135,7 +135,7 @@
         .tarjeta-slyde_contenido.p-4
           h4 3. Basadas en tipo de sensores
           p 
-            b Acelerómetros:
+            b Acelerómetros: 
             | usados en sistemas dinámicos.
       .tarjeta.tarjeta-slyde.color-acento-botones
         img(src='@/assets/curso/13.jpg') 

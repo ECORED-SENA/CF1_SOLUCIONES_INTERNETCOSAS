@@ -42,7 +42,7 @@
                 img(src='@/assets/curso/34.svg')
                 img(src='@/assets/curso/35.jpg')
             .col-lg-8
-              h4 Teclado y mouse
+              h4 Teclado y <em>mouse</em>
               p Periféricos  USB de baja potencia con menos de 0.1ª.
           .row.justify-content-center.align-items-center
             .col-lg-8
@@ -65,7 +65,7 @@
           h4.text-center.mb-0 Precio bajo
       .col-lg-3
         .tarjeta.color-alternativo_11.p-4.h-100.d-flex.align-items-center.justify-content-center
-          h4.text-center.mb-0 Tienen pines de entrada/salida, por lo que también se pueden conectar a otros componentes electrónicos, como sensores, LEDs, etc.
+          h4.text-center.mb-0 Tienen pines de entrada/salida, por lo que también se pueden conectar a otros componentes electrónicos, como sensores, <em>LEDs</em>, etc.
     h3 ARDUINO
     .row.mb-5.justify-content-center
       .col-lg-9
@@ -88,54 +88,54 @@
       .tarjeta.color-secundario.text-white.p-3(x="73%" y="63%" numero="1")
         p 1. ATmega 328 microcontrolador. El corazón del Arduino, el procesador.
       .tarjeta.color-secundario.text-white.p-3(x="25%" y="35%" numero="2")
-        p 2. Puerto USB. Se utiliza para la alimentación de la interfaz Uno Genuino, la carga de nuestros programas, y para la comunicación con nuestra placa (a través de serie. PrintIn (), etc.) El regulador de tensión ubicado a su lado, convertirá la tensión que le llega a través de este puerto USB y hará que trabaje a 5V.
+        p 2. Puerto USB. Se utiliza para la alimentación de la interfaz Uno Genuino, la carga de nuestros programas, y para la comunicación con nuestra placa (a través de serie. <em>PrintIn</em> (), etc.) El regulador de tensión ubicado a su lado, convertirá la tensión que le llega a través de este puerto <em>USB</em> y hará que trabaje a 5V.
       .tarjeta.color-secundario.text-white.p-3(x="30%" y="75%" numero="3")
         p  3. Conector de alimentación. Esta es la forma de alimentar nuestra placa cuando no está conectada a un puerto USB para para suministrar corriente eléctrica. Puede aceptar tensiones entre 7-12V.
       .tarjeta.color-secundario.text-white.p-3(x="61%" y="19%" numero="4")
-        p  4. Los pines digitales: utilizaremos estos pines con instrucciones como DigitalRead (), DigitalWrite (). AnalogRead () y AnalogWrite () funcionarán únicamente en los ìnes con el símbolo PWM.
+        p  4. Los pines digitales: utilizaremos estos pines con instrucciones como <em>DigitalRead</em> (), <em>DigitalWrite</em> (). <em>AnalogRead</em> () y <em>AnalogWrite</em> () funcionarán únicamente en los ìnes con el símbolo PWM.
       .tarjeta.color-secundario.text-white.p-3(x="73%" y="19%" numero="5")
-        p  5. y 6. Serial IN (TX) y Serial IN (RX): los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
+        p  5. y 6. <em>Serial IN</em> (TX) y <em>Serial IN</em> (RX): los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
       .tarjeta.color-secundario.text-white.p-3(x="76%" y="19%" numero="6")
         p 5. y 6. Serial IN (TX) y Serial IN (RX): Los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
       .tarjeta.color-secundario.text-white.p-3(x="52%" y="17%" numero="7")
-        p Pin 13 + L (on board led): el único actuador incorporado a la placa. Además de ser un objetivo práctico para nuestra primera práctica de encender y apagar LED, este LED es muy útil para la depuración (debugging).
+        p Pin 13 + L (<em>on board led</em>): el único actuador incorporado a la placa. Además de ser un objetivo práctico para nuestra primera práctica de encender y apagar <em>LED</em>, este <em>LED</em> es muy útil para la depuración (debugging).
       .tarjeta.color-secundario.text-white.p-3(x="48.5%" y="17%" numero="8")
         p GND: proporciona masa, tierra, negativo a los circuitos.
       .tarjeta.color-secundario.text-white.p-3(x="45%" y="17%" numero="9")
-        p  AREF: analogReference input V- Tensión a 5V, proporciona diferencia de potencial. Si se le aplica voltaje externo debe ser entre 0 y 5V solamente.
+        p  AREF: <em>analogReference input</em> V- Tensión a 5V, proporciona diferencia de potencial. Si se le aplica voltaje externo debe ser entre 0 y 5V solamente.
       .tarjeta.color-secundario.text-white.p-3(x="33%" y="20%" numero="10")
-        p Botón Reset. Restablece el microcontrolador ATmega.
+        p Botón <em>Reset</em>. Restablece el microcontrolador <em>ATmega</em>.
       .tarjeta.color-secundario.text-white.p-3(x="41%" y="40%" numero="11")
         p Chip de comunicación serie.
       .tarjeta.color-secundario.text-white.p-3(x="33%" y="65%" numero="12")
         p Regulador de tensión. Se debe tener en cuenta que para que trabaje a 5V la placa deberá recibir unos 6,5V – 7V, pero todo lo que esté por encima de este valor se desperdiciará (es decir, sobrecalentará la placa de Arduino y mayor calor que tendrá que disipar el regulador). En cualquier caso no está recomendado aplicar al regulador más de 12V y a los 20V se dañará.
       .tarjeta.color-secundario.text-white.p-3(x="76%" y="47%" numero="13")
-        p ICSP: In-Circuit Serial Programming.
+        p ICSP: <em>In-Circuit Serial Programming</em>.
       .tarjeta.color-secundario.text-white.p-3(x="70%" y="37%" numero="14")
         p Led de encendido: indica que la placa está recibiendo alimentación.
       .tarjeta.color-secundario.text-white.p-3(x="71%" y="80%" numero="15")
-        p Pines analógicos: utilizaremos estos pines con instrucciones como Analogread ().
+        p Pines analógicos: utilizaremos estos pines con instrucciones como <em>Analogread</em> ().
       .tarjeta.color-secundario.text-white.p-3(x="63%" y="80%" numero="16")
-        p Vin: voltaje Input. Deberá llegarle una tensión regulada y estable (ya que no pasa por el regulador -nº12-) de 5V.
+        p Vin: voltaje <em>Input</em>. Deberá llegarle una tensión regulada y estable (ya que no pasa por el regulador -nº12-) de 5V.
       .tarjeta.color-secundario.text-white.p-3(x="59%" y="80%" numero="17")
         p GND: proporciona masa, tierra, negativo a nuestros circuitos.
       .tarjeta.color-secundario.text-white.p-3(x="57%" y="53%" numero="17")
         p GND: proporciona masa, tierra, negativo a nuestros circuitos.
       .tarjeta.color-secundario.text-white.p-3(x="56%" y="82%" numero="18")
-        p 5V: voltaje Input.
+        p 5V: voltaje <em>Input</em>.
       .tarjeta.color-secundario.text-white.p-3(x="53.8%" y="80%" numero="19")
-        p 3,3V: voltaje Input.
+        p 3,3V: voltaje <em>Input</em>.
       .tarjeta.color-secundario.text-white.p-3(x="51.3%" y="80%" numero="20")
-        p Reset pin: restablece el microcontrolador ATmega. A su izquierda está el conector IOREF: Digital Reference input V, y a continuación un pin reservado para futuras finalidades.
+        p <em>Reset</em> pin: restablece el microcontrolador ATmega. A su izquierda está el conector IOREF: Digital Reference input V, y a continuación un pin reservado para futuras finalidades.
       .tarjeta.color-secundario.text-white.p-3(x="45%" y="37%" numero="21")
-        p TX y RX LED. Estos LEDs indican la comunicación entre la placa y el ordenador. Estos leds parpadearán rápidamente durante la carga de nuestros programas, así como durante la comunicación serie. Útil para la depuración (debugging).
+        p TX y RX <em>LED</em>. Estos <em>LEDs</em> indican la comunicación entre la placa y el ordenador. Estos <em>leds</em> parpadearán rápidamente durante la carga de nuestros programas, así como durante la comunicación serie. Útil para la depuración (debugging).
 
       .tarjeta.color-secundario.text-white.p-3(x="55%" y="47%" numero="22")
         p Casa fabricante original. Aquí puedes comprobar fácilmente si tu placa se trata de una imitación o el original.
       .tarjeta.color-secundario.text-white.p-3(x="46%" y="30%" numero="23")
-        p Pin 13 + L (on board led): el único actuador incorporado a la placa. Además de ser un objetivo práctico para nuestra primera práctica de encender y apagar LED, este LED es muy útil para la depuración (debugging).
+        p Pin 13 + L (<em>on board led</em>): el único actuador incorporado a la placa. Además de ser un objetivo práctico para nuestra primera práctica de encender y apagar <em>LED</em>, este <em>LED</em> es muy útil para la depuración (<em>debugging</em>).
       .tarjeta.color-secundario.text-white.p-3(x="40%" y="50%" numero="24")
-        p Reloj / Crystal 16 Mhz oscilador: se usa como reloj externo en el montaje del Arduino.
+        p Reloj / <em>Crystal</em> 16 Mhz oscilador: se usa como reloj externo en el montaje del Arduino.
     h4 Ventajas de Arduino
     .row.mb-5.justify-content-center
       .col-lg-6
