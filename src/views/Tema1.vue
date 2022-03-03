@@ -12,7 +12,7 @@
         p El internet de las cosas <b>hace referencia a la interconexión de los dispositivos y objetos con otros mediante redes como internet, empleando sensores y actuadores integrados y variedad de elementos electrónicos.</b> La interconexión de estos dispositivos con microprocesadores y la conexión de la red, permite obtener, tratar y transferir datos en forma automática; todo objeto en el mundo puede ser una fuente de datos.
           br
           br
-          |A grandes rasgos, podemos decir que el internet de las cosas se conforma por tres sectores: conectividad, hardware y servicios, y el sector de servicios es un campo fértil por sembrar: <b>desarrollo web en la nube, ingeniería de datos, machine learning, inteligencia artificial, big data.</b>
+          |A grandes rasgos, podemos decir que el internet de las cosas se conforma por tres sectores: conectividad, <em>hardware</em> y servicios, y el sector de servicios es un campo fértil por sembrar: <b>desarrollo <em>web</em> en la nube, ingeniería de datos, machine learning, inteligencia artificial, big data.</b>
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Origen e importancia
     p.mb-5 Entre los años 1991 y 1999, Mark Weiser y Naoto Fukusawa se centraron en el área del diseño de dispositivos que tengan una sensibilidad a la naturaleza humana, y estos dispositivos se volverán una parte integral de los seres humanos ejecutando algunos patrones de uso. Kevin Ashton, cofundador de AUTO ID center del MIT en 1999 en una presentación de frecuencias de radio (RFID) llamó a su presentación “Internet de las cosas”, pero el verdadero Internet de las cosas sucedería cuando se conecten a internet más dispositivos que personas y esto sucedió en el 2009 con el nacimiento de los celulares. 
@@ -38,8 +38,8 @@
             p Automóviles en red, prendas tecnológicas y monitores de salud en la ropa, aplicaciones para ciclistas para controlar su actividad física.  Gafas inteligentes.
     
           .tarjeta.color-alternativo_3.p-3(x="90.5%" y="31.5%" numero="")
-            .h5.mb-2 Ropa tecnológica (wearables)
-            p Dispositivos médicos, productos de salud, marcapasos y bombas de insulina. Estos wearables monitorizan la geolocalización, así como la frecuencia cardiaca, el pulso, calorías, patrones del sueño, etc.
+            .h5.mb-2 Ropa tecnológica (<em>wearables</em>)
+            p Dispositivos médicos, productos de salud, marcapasos y bombas de insulina. Estos <em>wearables</em> monitorizan la geolocalización, así como la frecuencia cardiaca, el pulso, calorías, patrones del sueño, etc.
     
           .tarjeta.color-alternativo_4.p-3(x="70.7%" y="77%" numero="")
             .h5.mb-2 Transporte
@@ -90,8 +90,8 @@
           img(src='@/assets/curso/6.svg' alt='AvatarTop')
           .tarjeta.color-alternativo_7.w-100
             .p-4.color-alternativo_texto.mt-3
-              h4 Capa de procesamiento o capa middleware
-              p Almacena, analiza y procesa grandes cantidades de datos que provienen de la capa de transporte. Puede administrar y proporcionar un conjunto diverso de servicios a las capas inferiores, aquí encontramos tecnologías como bases de datos, computación en la nube y procesamiento de big data.
+              h4 Capa de procesamiento o capa <em>middleware</em>
+              p Almacena, analiza y procesa grandes cantidades de datos que provienen de la capa de transporte. Puede administrar y proporcionar un conjunto diverso de servicios a las capas inferiores, aquí encontramos tecnologías como bases de datos, computación en la nube y procesamiento de <em>big data</em>.
     p.mb-5 En la siguiente figura se puede observar una comparación entre cada una de estas arquitecturas:
     .titulo-sexto.color-acento-contenido
       h5 Figura 1

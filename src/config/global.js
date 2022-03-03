@@ -30,19 +30,19 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Origen e importancia',
-            hash: 'encabezados',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Arquitectura IoT ',
-            hash: 'parrafos',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Componentes de IoT',
-            hash: 'botones',
+            hash: 't_1_3',
           },
         ],
       },
@@ -55,11 +55,11 @@ export default {
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
+      // {
+      //   icono: 'fas fa-sitemap',
+      //   titulo: 'Síntesis',
+      //   nombreRuta: 'sintesis',
+      // },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -148,7 +148,7 @@ export default {
     },
     {
       termino: 'IoT',
-      significado: 'Internet de las cosas',
+      significado: 'Internet de las cosas.',
     },
     {
       termino: 'Microcontrolador',
@@ -158,12 +158,12 @@ export default {
     {
       termino: 'M2M',
       significado:
-        'Tecnología que permita que dos dispositivos intercambien información entre sí',
+        'Tecnología que permita que dos dispositivos intercambien información entre sí.',
     },
     {
       termino: 'OSI',
       significado:
-        'Lenguaje universal de comunicación entre sistemas de redes informáticas ',
+        'Lenguaje universal de comunicación entre sistemas de redes informáticas. ',
     },
     {
       termino: '<em>Raspberry pi</em>',
@@ -177,12 +177,12 @@ export default {
     },
     {
       termino: '<em>Smart cities</em>',
-      significado: 'Ciudades inteligentes',
+      significado: 'Ciudades inteligentes.',
     },
     {
       termino: '<em>Wearables</em>',
       significado:
-        'Hace referencia al conjunto de aparatos y dispositivos electrónicos que se incorporan en alguna parte de nuestro cuerpo interactuando de forma continua con el usuario y con otros dispositivos con la finalidad de realizar alguna función concreta',
+        'Hace referencia al conjunto de aparatos y dispositivos electrónicos que se incorporan en alguna parte de nuestro cuerpo interactuando de forma continua con el usuario y con otros dispositivos con la finalidad de realizar alguna función concreta.',
     },
   ],
   complementario: [
@@ -262,13 +262,36 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Mayra Alejandra Álvarez ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
