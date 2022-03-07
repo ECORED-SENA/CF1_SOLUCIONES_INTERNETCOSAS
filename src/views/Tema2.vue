@@ -161,7 +161,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-8
               h4 Código abierto
-              p el Arduino es un <em>software</em> de código abierto que puede ser programado con lenguajes C, C++, AVR-C  
+              p El Arduino es un <em>software</em> de código abierto que puede ser programado con lenguajes C, C++, AVR-C  
             .col-4
               img(src='@/assets/curso/43.svg')
 
