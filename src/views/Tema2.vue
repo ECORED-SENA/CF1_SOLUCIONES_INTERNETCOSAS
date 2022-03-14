@@ -11,9 +11,8 @@
     .row.mb-5.justify-content-center
       .col-lg-9
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/29.jpg')})`}"
-          )
+          .bloque-texto-g__img.p-5
+            img(src="@/assets/curso/29.jpg" alt="Raspberry Pi")
           .bloque-texto-g__texto.p-4
             p.mb-0.fw-bold El Raspberry Pi es un minicomputador de bajo costo que puede ser conectado a un monitor o televisión.
     p.mb-5 Los componentes el <i><b>Raspberry Pi</b></i> son:
