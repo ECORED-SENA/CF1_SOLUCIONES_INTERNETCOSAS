@@ -11,9 +11,10 @@
     .row.mb-5.justify-content-center
       .col-lg-9
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img.p-5
-            img(src="@/assets/curso/29.jpg" alt="Raspberry Pi")
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__img.p-5(
+            :style="{'background-image': `url(${require('@/assets/curso/29.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4.d-flex.align-items-center(style=' height: 134px')
             p.mb-0.fw-bold El Raspberry Pi es un minicomputador de bajo costo que puede ser conectado a un monitor o televisión.
     p.mb-5 Los componentes el <i><b>Raspberry Pi</b></i> son:
     .row.mb-5.justify-content-center
@@ -53,16 +54,16 @@
                 img(src='@/assets/curso/37.jpg')
     h4.mb-5 Ventajas de Raspberry Pi
     .row.mb-5
-      .col-lg-3
+      .col-lg-3.mb-3
         .tarjeta.color-alternativo_8.p-4.h-100.d-flex.align-items-center.justify-content-center
           h4.text-center.mb-0 Uso sencillo
-      .col-lg-3
+      .col-lg-3.mb-3
         .tarjeta.color-alternativo_9.p-4.h-100.d-flex.align-items-center.justify-content-center
           h4.text-center.mb-0 Tamaño muy pequeño
-      .col-lg-3
+      .col-lg-3.mb-3
         .tarjeta.color-alternativo_10.p-4.h-100.d-flex.align-items-center.justify-content-center
           h4.text-center.mb-0 Precio bajo
-      .col-lg-3
+      .col-lg-3.mb-3
         .tarjeta.color-alternativo_11.p-4.h-100.d-flex.align-items-center.justify-content-center
           h4.text-center.mb-0 Tienen pines de entrada/salida, por lo que también se pueden conectar a otros componentes electrónicos, como sensores, <em>LEDs</em>, etc.
     h3 ARDUINO
@@ -148,7 +149,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-8
               h4 Plataforma
-              p El <em>software</em> de Arduino (IDE) es compatible con la mayoría de sistemas operativos como <em>Macintosh OSX, Windows , Linux</em> 
+              p El <em>software</em> de Arduino (IDE) es compatible con la mayoría de sistemas operativos como <em>Macintosh OSX, Windows , Linux</em>.
             .col-4
               img(src='@/assets/curso/41.svg')
           .row.justify-content-center.align-items-center
@@ -160,7 +161,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-8
               h4 Código abierto
-              p El Arduino es un <em>software</em> de código abierto que puede ser programado con lenguajes C, C++, AVR-C  
+              p El Arduino es un <em>software</em> de código abierto que puede ser programado con lenguajes C, C++, AVR-C.  
             .col-4
               img(src='@/assets/curso/43.svg')
 
@@ -189,11 +190,10 @@ export default {
 </script>
 
 <style lang="sass">
-.bloque-texto-g.color-primario
-  height: 319px
-  .bloque-texto-g__texto
-    display: flex
-    align-items: center
+// .bloque-texto-g.color-primario
+//   .bloque-texto-g__texto
+//     display: flex
+//     align-items: center
 .icono-hover
   overflow: hidden
   img:first-child

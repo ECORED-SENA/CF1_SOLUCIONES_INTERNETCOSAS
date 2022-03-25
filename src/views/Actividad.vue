@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Conceptos sobre sensores
-        p.mb-4 Reconocer las características de los diferentes sensores usados en IoT  pretium elit a nisi tempus sagittis.
+        p.mb-4 Reconocer las características de los diferentes sensores usados en IoT
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
@@ -29,7 +29,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Falso-Verdadero
-        p.mb-4 Esta es una actividad donde encontrará preguntas relacionadas con el componente que acaba de conocer y que deberá responder si es Falso o Verdadero.
+        p.mb-4 Investigar sobre el funcionamiento de un raspberry pi 
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
