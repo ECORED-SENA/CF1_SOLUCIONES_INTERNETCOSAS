@@ -12,10 +12,10 @@
         p El internet de las cosas <b>hace referencia a la interconexión de los dispositivos y objetos con otros mediante redes como internet, empleando sensores y actuadores integrados y variedad de elementos electrónicos.</b> La interconexión de estos dispositivos con microprocesadores y la conexión de la red, permite obtener, tratar y transferir datos en forma automática; todo objeto en el mundo puede ser una fuente de datos.
           br
           br
-          |A grandes rasgos, podemos decir que el internet de las cosas se conforma por tres sectores: conectividad, <em>hardware</em> y servicios, y el sector de servicios es un campo fértil por sembrar: <b>desarrollo <em>web</em> en la nube, ingeniería de datos, machine learning, inteligencia artificial, big data.</b>
+          |A grandes rasgos, podemos decir que el internet de las cosas se conforma por tres sectores: conectividad, <em>hardware</em> y servicios, y el sector de servicios es un campo fértil por sembrar: <b>desarrollo <em>web</em> en la nube, ingeniería de datos, <em>machine learning</em>, inteligencia artificial, <em>big data.</em></b>
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Origen e importancia
-    p.mb-5 Entre los años 1991 y 1999, Mark Weiser y Naoto Fukusawa se centraron en el área del diseño de dispositivos que tengan una sensibilidad a la naturaleza humana, y estos dispositivos se volverán una parte integral de los seres humanos ejecutando algunos patrones de uso. Kevin Ashton, cofundador de AUTO ID center del MIT en 1999 en una presentación de frecuencias de radio (RFID) llamó a su presentación “Internet de las cosas”, pero el verdadero Internet de las cosas sucedería cuando se conecten a internet más dispositivos que personas y esto sucedió en el 2009 con el nacimiento de los celulares.
+    p.mb-5 Entre los años 1991 y 1999, Mark Weiser y Naoto Fukusawa se centraron en el área del diseño de dispositivos que tuvieran una sensibilidad a la naturaleza humana, y estos dispositivos se volvieran una parte integral de los seres humanos ejecutando algunos patrones de uso. Kevin Ashton, cofundador de AUTO ID center del MIT en 1999 en una presentación de frecuencias de radio (RFID) llamó a su presentación “internet de las cosas”, pero el verdadero internet de las cosas sucedería cuando se conecten a internet más dispositivos que personas y esto sucedió en el 2009 con el nacimiento de los celulares.
       br
       br
       |En estos términos, para el 2022 se espera que estén conectados 18 mil millones de dispositivos, no solo celulares, tablets, pc’s, sino también dispositivos que nunca nos imaginariamos tales como refrigeradores, cepillos, autos, zapatillas, collares de mascotas, iluminación, cerraduras, ropa, etc.
@@ -103,7 +103,7 @@
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-4.p-5(data-aos="fade-right"): img(src="@/assets/curso/8.jpg")
       .col-lg-8.p-5(data-aos="fade-left")
-        p Un sistema IoT no se puede llevar a cabo o es imposible sin el uso de sensores para recoger datos del medio ambiente, estos son pequeños, de bajo costo y tienen un bajo consumo de energía,
+        p Un sistema IoT no se puede llevar a cabo o es imposible sin el uso de sensores para recoger datos del medio ambiente, estos son pequeños, de bajo costo y tienen un bajo consumo de energía.
           br
           br
           |La información recogida por los sensores es convertida a información digital para así poder tratarla, almacenarla y enviarla a otros dispositivos.
@@ -255,7 +255,7 @@
 
 
 
-    p.mb-5 Y los actuadores activan un determinado proceso utilizando señales eléctricas. Estos reciben una señal eléctrica y la transforman en movimiento en el ambiente Internet de las cosas; los actuadores se usan siempre que sea necesario encender o apagar otro dispositivo, aplicando una fuerza.
+    p.mb-5 Y los actuadores activan un determinado proceso utilizando señales eléctricas. Estos reciben una señal eléctrica y la transforman en movimiento en el ambiente internet de las cosas; los actuadores se usan siempre que sea necesario encender o apagar otro dispositivo, aplicando una fuerza.
       br
       br
       b Los actuadores tienen dos clasificaciones:
@@ -339,6 +339,7 @@ export default {
   background-color: #c6fcff
   border: 3px solid #01d1dd
 .tarjeta-slyde
+  overflow: hidden
   margin: 10px
   border: 3px solid #662c91
   border-radius: 20px

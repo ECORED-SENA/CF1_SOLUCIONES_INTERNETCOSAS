@@ -16,7 +16,7 @@
           )
           .bloque-texto-g__texto.p-4.d-flex.align-items-center(style=' height: 134px')
             p.mb-0.fw-bold El Raspberry Pi es un minicomputador de bajo costo que puede ser conectado a un monitor o televisión.
-    p.mb-5 Los componentes el <i><b>Raspberry Pi</b></i> son:
+    p.mb-5 Los componentes del <i><b>Raspberry Pi</b></i> son:
     .row.mb-5.justify-content-center
       .col-lg-6
         PasosA.color-acento-contenido.mb-5(tipo="n")
@@ -88,15 +88,15 @@
       .tarjeta.color-secundario.text-white.p-3(x="73%" y="63%" numero="1")
         p 1. ATmega 328 microcontrolador. El corazón del Arduino, el procesador.
       .tarjeta.color-secundario.text-white.p-3(x="25%" y="35%" numero="2")
-        p 2. Puerto USB. Se utiliza para la alimentación de la interfaz Uno Genuino, la carga de nuestros programas, y para la comunicación con nuestra placa (a través de serie. <em>PrintIn</em> (), etc.) El regulador de tensión ubicado a su lado, convertirá la tensión que le llega a través de este puerto <em>USB</em> y hará que trabaje a 5V.
+        p 2. Puerto USB. Se utiliza para la alimentación de la interfaz Uno Genuino, la carga de nuestros programas, y para la comunicación con nuestra placa (a través de serie. <em>Print</em> (), etc.) El regulador de tensión ubicado a su lado, convertirá la tensión que le llega a través de este puerto <em>USB</em> y hará que trabaje a 5V.
       .tarjeta.color-secundario.text-white.p-3(x="30%" y="75%" numero="3")
-        p  3. Conector de alimentación. Esta es la forma de alimentar nuestra placa cuando no está conectada a un puerto USB para para suministrar corriente eléctrica. Puede aceptar tensiones entre 7-12V.
+        p  3. Conector de alimentación. Esta es la forma de alimentar nuestra placa cuando no está conectada a un puerto USB para suministrar corriente eléctrica. Puede aceptar tensiones entre 7-12V.
       .tarjeta.color-secundario.text-white.p-3(x="61%" y="19%" numero="4")
-        p  4. Los pines digitales: utilizaremos estos pines con instrucciones como <em>DigitalRead</em> (), <em>DigitalWrite</em> (). <em>AnalogRead</em> () y <em>AnalogWrite</em> () funcionarán únicamente en los ìnes con el símbolo PWM.
+        p  4. Los pines digitales: utilizaremos estos pines con instrucciones como <em>DigitalRead</em> (), <em>DigitalWrite</em> (). <em>AnalogRead</em> () y <em>AnalogWrite</em> () funcionarán únicamente en los pìnes con el símbolo PWM.
       .tarjeta.color-secundario.text-white.p-3(x="73%" y="19%" numero="5")
         p  5. y 6. <em>Serial IN</em> (TX) y <em>Serial IN</em> (RX): los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
       .tarjeta.color-secundario.text-white.p-3(x="76%" y="19%" numero="6")
-        p 5. y 6. Serial IN (TX) y Serial IN (RX): Los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
+        p 5. y 6. <em>Serial IN</em> (TX) y <em>Serial IN</em> (RX): los puertos serie están físicamente unidos a distintos pines de la placa Arduino. Lógicamente, mientras usamos los puertos de serie no podemos usar como entradas o salidas digitales los pines asociados con el puerto de serie en uso. Pines asociados con el puerto de serie como entrada y salida digital (TX es el que Transmite y RX es el que recibe).
       .tarjeta.color-secundario.text-white.p-3(x="52%" y="17%" numero="7")
         p Pin 13 + L (<em>on board led</em>): el único actuador incorporado a la placa. Además de ser un objetivo práctico para nuestra primera práctica de encender y apagar <em>LED</em>, este <em>LED</em> es muy útil para la depuración (debugging).
       .tarjeta.color-secundario.text-white.p-3(x="48.5%" y="17%" numero="8")
