@@ -202,23 +202,28 @@
     //-         | acelerómetros, giroscopios.
     TabsA.color-primario.mb-5
       .tarjeta.cian.p-5(titulo="1. Basadas en aplicaciones")
+        h4 Basadas en aplicaciones
         .tarjeta-slyde.d-flex.p-0
           img(src='@/assets/curso/9.png')
           p.mb-0 Los sensores son seleccionados de acuerdo al requerimiento a implementar, tales como procesos de control industrial, medidas y automatización, automóviles, electrónica de consumo, productos médicos.
 
       .tarjeta.cian.p-5(titulo="2. Basadas en tipo de señal de salida")
         SlyderA.p-3
-          .tarjeta-slyde.d-flex.p-0
-            img(src='@/assets/curso/10.png')
-            p.mb-0 Sensores digitales: la salida del sensor es binaria o digital la cual puede ser procesada directamente a través de controlador o  procesador.
+          div
+            h4.ps-3 Basadas en tipo de señal de salida
+            .tarjeta-slyde.d-flex.p-0 
+              img(src='@/assets/curso/10.png')
+              p.mb-0 Sensores digitales: la salida del sensor es binaria o digital la cual puede ser procesada directamente a través de controlador o  procesador.
           .tarjeta-slyde.d-flex.p-0
             img(src='@/assets/curso/11.png')
             p.mb-0 Sensores análogos: la señal de salida es continua, se requiere un conversor análogo digital para leer el sensor.
       .tarjeta.cian.p-5(titulo="3. Basadas en tipo de sensores")
         SlyderA.p-3
-          .tarjeta-slyde.d-flex.p-0
-            img(src='@/assets/curso/12.png')
-            p.mb-0 Acelerómetros: usados en sistemas dinámicos.
+          div
+            h4.ps-3 Basadas en tipo de sensores
+            .tarjeta-slyde.d-flex.p-0
+              img(src='@/assets/curso/12.png')
+              p.mb-0 Acelerómetros: usados en sistemas dinámicos.
           .tarjeta-slyde.d-flex.p-0
             img(src='@/assets/curso/13.png')
             p.mb-0 Biosensores: basados en tecnología electromecánica, usados como dispositivos médicos, prueba de agua, prueba de aire, pruebas de alimentos.
@@ -227,9 +232,11 @@
             p.mb-0 Sensores de imágenes: usados ampliamente en vigilancia, biometría y gestión de tráfico.
       .tarjeta.cian.p-5(titulo="4. Basadas en propiedades")
         SlyderA.p-3
-          .tarjeta-slyde.d-flex.p-0
-            img(src='@/assets/curso/15.png')
-            p.mb-0 Sensores de temperatura: termocuplas, termistores, detectores de temperatura.
+          div
+            h4.ps-3 Basadas en propiedades
+            .tarjeta-slyde.d-flex.p-0
+              img(src='@/assets/curso/15.png')
+              p.mb-0 Sensores de temperatura: termocuplas, termistores, detectores de temperatura.
           .tarjeta-slyde.d-flex.p-0
             img(src='@/assets/curso/16.png')
             p.mb-0 Sensores de flujo: masa térmica, presión diferencial, campo electromagnético, desplazamiento de posición.
