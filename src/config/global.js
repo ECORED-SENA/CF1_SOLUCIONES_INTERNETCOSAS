@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Arquitectura de internet de las cosas IoT',
+    componenteFormativo: 'Arquitectura IoT',
     descripcionCurso:
       'En este componente formativo aprenderemos a recopilar la señal de un sensor, procesarla y almacenarla en bases de datos en la nube; <b>el concepto de Internet de las Cosas es fundamental en nuestra era de la información</b> porque todo está conectado, desde simples bombillas hasta los sensores más sensibles',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
